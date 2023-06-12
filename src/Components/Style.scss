@@ -48,6 +48,11 @@
         font-weight: bold;
         border: none;
         cursor: pointer;
+        border-radius: 12px;
+
+      }
+      button:hover{
+        background-color: #1cd5e2;
       }
       label {
         display: flex;
@@ -59,6 +64,12 @@
         img {
           width: 32px;
         }
+        span{
+          color:#7e499d;
+        }
+      }
+      span{
+        color:red;
       }
     }
     p {
@@ -119,6 +130,10 @@
             border: none;
             border-radius: 10px;
             cursor: pointer;
+          }
+          button:hover{
+            background-color: #7e499d;
+            
           }
         }
       }
